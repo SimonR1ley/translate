@@ -2,37 +2,99 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-con {
+  width: 100vw;
+  height: 97.5vh;
+  text-align: center;
+  background-image: url("../src/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-bottom: 20px solid;
+  border-color: #49b05e;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-side-con {
+  width: 50%;
+  height: 100%;
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.left-side-inner {
+  width: 93%;
+  height: 83%;
+  background-color: #49b05e;
+  padding: 10px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.right-side-con {
+  width: 50%;
+  height: 100%;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-side-inner {
+  /* margin-left: 5%; */
+  width: 93%;
+  height: 83%;
+  background-color: #49b05e;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+input {
+  width: 94%;
+  align-self: center;
+  height: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: #49b05e solid 5px;
+  border-radius: 10px;
+}
+
+select {
+  width: 94%;
+  align-self: center;
+  height: 8%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: #49b05e solid 5px;
+  border-radius: 10px;
+}
+
+h1 {
   color: white;
+  font-size: 33pt;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+text {
+  width: 100%;
+  display: block;
+  /* background-color: black; */
+  text-align: left;
+  color: white;
 }
